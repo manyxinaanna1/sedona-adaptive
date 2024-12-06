@@ -1,0 +1,80 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 7px 15px 6px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #83b3d3;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #68a2ca;
+}
+
+.button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #68a2ca;
+}
+
+.button:focus:not(:active) {
+    background-color: #68a2ca;
+    outline: 3px solid #615048;
+    outline-offset: 0;
+}
+
+.button-secondary {
+    background-color: #756257;
+}
+
+.button-secondary:hover {
+    background-color: #615048;
+}
+
+.button-secondary:active {
+    background-color: #615048;
+}
+
+.button-secondary:focus {
+    background-color: #615048;
+    outline: 3px solid #83b3d3;
+}
+
+.button-success {
+    background-color: #7db54f;
+}
+.button-success:hover {
+    background-color: #6c9e42;
+}
+
+.button-success:active {
+    background-color: #6c9e42;
+}
+
+.button-success:focus:not(:active) {
+    background-color: #6c9e42;
+}
+
+.button[disabled] {
+    opacity: 0.3;
+    color: #ffffff;
+    background-color: #d3d3d3;
+}
+
+.button-search {
+    width: 575px;
+    margin-top: 50px;
+}
+
+.button-large {
+    padding: 18px 16px 17px;
+    border-radius: 10px;
+    font-size: 20px;
+}
