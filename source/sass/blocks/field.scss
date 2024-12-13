@@ -1,0 +1,32 @@
+.field {
+  display: flex;
+}
+
+.field__input {
+  width: 100%;
+  margin: 0;
+  padding: 8px 20px;
+  font-family: inherit;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.field__input:hover {
+  background-color: #e6e6e6;
+}
+
+.field__input:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.field__input-error {
+  border-color: #ff5757;
+}
+
+.field__input[disabled] {
+  opacity: 0.3;
+  background-color: #d3d3d3;
+}

@@ -1,0 +1,8 @@
+.main__promo {
+  min-height: 485px;
+  background-color: #491213;
+  background-repeat: no-repeat;
+  background-position: 50% calc(50% - 16px), 50% 100%, 50% 50%;
+  background-size: auto auto, 100% auto, cover;
+  background-image: url(../images/welcome.svg), url(../images/background/divider.svg), url(../images/background/promo.jpg);
+}

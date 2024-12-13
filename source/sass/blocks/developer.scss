@@ -1,0 +1,26 @@
+.developer {
+  justify-self: end;
+}
+
+.developer__link {
+display: block;
+margin-right: -12px;
+padding: 16px 22px;
+justify-self: end;
+border-radius: 10px;
+}
+
+.developer__link:hover {
+fill: #756257;
+}
+
+.developer__link:active {
+fill: #756257;
+opacity: 0.3;
+}
+
+.developer__link:focus:not(:active) {
+fill: #756257;
+outline: 3px solid #68a2ca;
+outline-offset: -3px;
+}

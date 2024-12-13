@@ -1,0 +1,39 @@
+.sotial__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sotial__item {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.sotial__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.sotial__link {
+  display: grid;
+  place-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  fill: #83b3d3;
+}
+
+.sotial__link:hover {
+  fill: #68a2ca;
+}
+
+.sotial__link:active {
+  opacity: 0.3;
+}
+
+.sotial__link:focus:not(:active) {
+  outline: 3px solid #83b3d3;
+  outline-offset: -3px;
+}

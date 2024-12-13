@@ -1,0 +1,23 @@
+.telephone__link{
+  display: block;
+  width: 720px;
+  margin: 0 auto;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.telephone__link:hover {
+  color: #756257;
+}
+
+.telephone__link:active {
+  opacity: 0.3;
+}
+
+.telephone__link:focus:not(:active) {
+  outline: 3px solid #83b3d3;
+  outline-offset: -3px;
+}
